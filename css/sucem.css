@@ -1,0 +1,49 @@
+body{
+    background: white;
+}
+
+#wrapper{
+    background-color: white;
+}
+
+#test{
+    background-color: #cc0000;
+    color: white;
+    text-decoration: none;
+}
+
+#test:active {
+    background-color: #cc0000;
+    color: white;
+    text-decoration: none;
+}
+
+#test:focus {
+    background-color: #cc0000;
+    color: white;
+    text-decoration: none;
+}
+
+#test:hover {
+    background-color: #e60000;
+    color: white;
+    text-decoration: none;
+}
+
+#barra_notificaciones, #menuSuperior, #barra_navegacion {
+    background-color: #cc0000;
+}
+
+.anchoInputs-productos{width: 75%}
+#contenedor-pag{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#ButtonWidth{
+    width: 100%;
+}
+
+
+
+
