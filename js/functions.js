@@ -35,24 +35,91 @@ $(function(){
         localStorage.setItem("tbClients", JSON.stringify(tbClients));
         
         var client2 = JSON.stringify({
-			ID    : "BONOFW 2",
-			Nombre  : "BONOS FORWARD 2",
-			Mercado : "SECM 2",
-			Descripcion : "DESCRIPCION BONOFW 2",
-            Motivo : "MOTIVO BONOFW 2",
+			ID    : "CETES",
+			Nombre  : "CERTIFICADOS DE LA TESORERIA",
+			Mercado : "SECM",
+			Descripcion : "DESCRIPCION CETES",
+            Motivo : "MOTIVO CETES",
             Estatus : "Pendiente de Validar",
-            Usuario : "Osvaldo Rosas",
+            Usuario : "Andrea Sevilla",
             FechaUltModif : "02/03/2012"
 		});
 		tbClients.push(client2);
         localStorage.setItem("tbClients", JSON.stringify(tbClients));
         
         var client = JSON.stringify({
-			ID    : "BONOFW 3",
-			Nombre  : "BONOS FORWARD 3",
-			Mercado : "SECM 3",
-			Descripcion : "DESCRIPCION BONOFW 3",
-            Motivo : "MOTIVO BONOFW 3",
+			ID    : "BONDES",
+			Nombre  : "BONOS DE DESARROLLO DEL GOBNO FEDER",
+			Mercado : "SECM",
+			Descripcion : "DESCRIPCION BONDES",
+            Motivo : "MOTIVO BONDES",
+            Estatus : "Pendiente de Validar",
+            Usuario : "Mario Unzueta",
+            FechaUltModif : "02/03/2012"
+		});
+		tbClients.push(client);
+        localStorage.setItem("tbClients", JSON.stringify(tbClients));
+    
+        var client = JSON.stringify({
+			ID    : "ABS",
+			Nombre  : "ACEPTACIONES BANCARIOS",
+			Mercado : "SECM",
+			Descripcion : "DESCRIPCION ABS",
+            Motivo : "MOTIVO ABS",
+            Estatus : "Pendiente de Validar",
+            Usuario : "Gustavo Sanchez",
+            FechaUltModif : "02/03/2012"
+		});
+		tbClients.push(client);
+        localStorage.setItem("tbClients", JSON.stringify(tbClients));
+        
+        var client = JSON.stringify({
+			ID    : "PRLV",
+			Nombre  : "PAGARE VENTANILLA",
+			Mercado : "DLDT",
+			Descripcion : "DESCRIPCION PRLV",
+            Motivo : "MOTIVO PRLV",
+            Estatus : "Pendiente de Validar",
+            Usuario : "Armando Perez",
+            FechaUltModif : "02/03/2012"
+		});
+		tbClients.push(client);
+        localStorage.setItem("tbClients", JSON.stringify(tbClients));
+        
+        var client = JSON.stringify({
+			ID    : "FXD",
+			Nombre  : "FOREIGN EXCHANGE",
+			Mercado : "FXDH",
+			Descripcion : "DESCRIPCION FXD",
+            Motivo : "MOTIVO FXD",
+            Estatus : "Pendiente de Validar",
+            Usuario : "Alma Lobato",
+            FechaUltModif : "02/03/2012"
+		});
+		tbClients.push(client);
+        localStorage.setItem("tbClients", JSON.stringify(tbClients));
+        
+        var client = JSON.stringify({
+			ID    : "GENLED",
+			Nombre  : "MULTICURRENCY GENERAL LEDGER",
+			Mercado : "MGL",
+			Descripcion : "DESCRIPCION GENLED",
+            Motivo : "MOTIVO GENLED",
+            Estatus : "Pendiente de Validar",
+            Usuario : "Carlos Aviles",
+            FechaUltModif : "02/03/2012"
+		});
+		tbClients.push(client);
+        localStorage.setItem("tbClients", JSON.stringify(tbClients));
+        
+        /////////////////////////////////////////////////////
+        
+        var client = JSON.stringify({
+			ID    : "SECUR",
+			Nombre  : "FIXED INCOME SECURITIES",
+			Mercado : "SECM",
+			Descripcion : "DESCRIPCION SECUR",
+            Motivo : "MOTIVO SECUR",
             Estatus : "Pendiente de Validar",
             Usuario : "Osvaldo Rosas",
             FechaUltModif : "02/03/2012"
@@ -60,8 +127,270 @@ $(function(){
 		tbClients.push(client);
         localStorage.setItem("tbClients", JSON.stringify(tbClients));
         
+        var client2 = JSON.stringify({
+			ID    : "TESO",
+			Nombre  : "BONOS DE LA TESORERIA",
+			Mercado : "SECM",
+			Descripcion : "DESCRIPCION TESO",
+            Motivo : "MOTIVO TESO",
+            Estatus : "Pendiente de Validar",
+            Usuario : "Andrea Sevilla",
+            FechaUltModif : "02/03/2012"
+		});
+		tbClients.push(client2);
+        localStorage.setItem("tbClients", JSON.stringify(tbClients));
+        
+        var client = JSON.stringify({
+			ID    : "AJUSTA",
+			Nombre  : "BONOS AJUSTABLES DEL GOBIERNO FEDER",
+			Mercado : "SECM",
+			Descripcion : "DESCRIPCION AJUSTA",
+            Motivo : "MOTIVO AJUSTA",
+            Estatus : "Pendiente de Validar",
+            Usuario : "Mario Unzueta",
+            FechaUltModif : "02/03/2012"
+		});
+		tbClients.push(client);
+        localStorage.setItem("tbClients", JSON.stringify(tbClients));
     
+        var client = JSON.stringify({
+			ID    : "PAGARE",
+			Nombre  : "PAGARE C/ REND. LIQ. AL VENCIMIENTO",
+			Mercado : "SECM",
+			Descripcion : "DESCRIPCION PAGARE",
+            Motivo : "MOTIVO PAGARE",
+            Estatus : "Pendiente de Validar",
+            Usuario : "Gustavo Sanchez",
+            FechaUltModif : "02/03/2012"
+		});
+		tbClients.push(client);
+        localStorage.setItem("tbClients", JSON.stringify(tbClients));
+        
+        var client = JSON.stringify({
+			ID    : "PENINT",
+			Nombre  : "PENA CONVENCIONAL",
+			Mercado : "DLDT",
+			Descripcion : "DESCRIPCION PENINT",
+            Motivo : "MOTIVO PENINT",
+            Estatus : "Pendiente de Validar",
+            Usuario : "Armando Perez",
+            FechaUltModif : "02/03/2012"
+		});
+		tbClients.push(client);
+        localStorage.setItem("tbClients", JSON.stringify(tbClients));
+        
+        var client = JSON.stringify({
+			ID    : "IVA",
+			Nombre  : "IVA",
+			Mercado : "FEES",
+			Descripcion : "DESCRIPCION IVA",
+            Motivo : "MOTIVO IVA",
+            Estatus : "Pendiente de Validar",
+            Usuario : "Alma Lobato",
+            FechaUltModif : "02/03/2012"
+		});
+		tbClients.push(client);
+        localStorage.setItem("tbClients", JSON.stringify(tbClients));
+        
+        var client = JSON.stringify({
+			ID    : "CALL",
+			Nombre  : "CALL AND NOTICE",
+			Mercado : "ACCT",
+			Descripcion : "DESCRIPCION CALL",
+            Motivo : "MOTIVO CALL",
+            Estatus : "Pendiente de Validar",
+            Usuario : "Carlos Aviles",
+            FechaUltModif : "02/03/2012"
+		});
+		tbClients.push(client);
+        localStorage.setItem("tbClients", JSON.stringify(tbClients));
 		
+        /////////////////////////////////////////////////////
+        
+        var client = JSON.stringify({
+			ID    : "DPNL",
+			Nombre  : "DEPOSITOS Y PRESTAMOS",
+			Mercado : "DLDT",
+			Descripcion : "DESCRIPCION DPNL",
+            Motivo : "MOTIVO DPNL",
+            Estatus : "Pendiente de Validar",
+            Usuario : "Osvaldo Rosas",
+            FechaUltModif : "02/03/2012"
+		});
+		tbClients.push(client);
+        localStorage.setItem("tbClients", JSON.stringify(tbClients));
+        
+        var client2 = JSON.stringify({
+			ID    : "REPO",
+			Nombre  : "REPORTOS",
+			Mercado : "RPRH",
+			Descripcion : "DESCRIPCION REPO",
+            Motivo : "MOTIVO REPO",
+            Estatus : "Pendiente de Validar",
+            Usuario : "Andrea Sevilla",
+            FechaUltModif : "02/03/2012"
+		});
+		tbClients.push(client2);
+        localStorage.setItem("tbClients", JSON.stringify(tbClients));
+        
+        var client = JSON.stringify({
+			ID    : "PRCALL",
+			Nombre  : "PRESTAMO CALL",
+			Mercado : "DLDT",
+			Descripcion : "DESCRIPCION PRCALL",
+            Motivo : "MOTIVO PRCALL",
+            Estatus : "Pendiente de Validar",
+            Usuario : "Mario Unzueta",
+            FechaUltModif : "02/03/2012"
+		});
+		tbClients.push(client);
+        localStorage.setItem("tbClients", JSON.stringify(tbClients));
+    
+        var client = JSON.stringify({
+			ID    : "DEPCAL",
+			Nombre  : "DEPOSITO CALL",
+			Mercado : "DLDT",
+			Descripcion : "DESCRIPCION DEPCAL",
+            Motivo : "MOTIVO DEPCAL",
+            Estatus : "Pendiente de Validar",
+            Usuario : "Gustavo Sanchez",
+            FechaUltModif : "02/03/2012"
+		});
+		tbClients.push(client);
+        localStorage.setItem("tbClients", JSON.stringify(tbClients));
+        
+        var client = JSON.stringify({
+			ID    : "ACCS04",
+			Nombre  : "ACCIONES SOCIEDADES INVERSION COMUN",
+			Mercado : "SECM",
+			Descripcion : "DESCRIPCION ACCS04",
+            Motivo : "MOTIVO ACCS04",
+            Estatus : "Pendiente de Validar",
+            Usuario : "Armando Perez",
+            FechaUltModif : "02/03/2012"
+		});
+		tbClients.push(client);
+        localStorage.setItem("tbClients", JSON.stringify(tbClients));
+        
+        var client = JSON.stringify({
+			ID    : "ACCS01",
+			Nombre  : "ACCIONES DE SEGUROS",
+			Mercado : "SECM",
+			Descripcion : "DESCRIPCION ACCS01",
+            Motivo : "MOTIVO ACCS01",
+            Estatus : "Pendiente de Validar",
+            Usuario : "Alma Lobato",
+            FechaUltModif : "02/03/2012"
+		});
+		tbClients.push(client);
+        localStorage.setItem("tbClients", JSON.stringify(tbClients));
+        
+        var client = JSON.stringify({
+			ID    : "ACCS02",
+			Nombre  : "ACCIONES DE FIANZAS",
+			Mercado : "SECM",
+			Descripcion : "DESCRIPCION ACCS02",
+            Motivo : "MOTIVO ACCS02",
+            Estatus : "Pendiente de Validar",
+            Usuario : "Carlos Aviles",
+            FechaUltModif : "02/03/2012"
+		});
+		tbClients.push(client);
+        localStorage.setItem("tbClients", JSON.stringify(tbClients));
+        
+        /////////////////////////////////////////////////////
+        
+        var client = JSON.stringify({
+			ID    : "ACCS03",
+			Nombre  : "ACCIONES DE CASAS DE BOLSA",
+			Mercado : "SECM",
+			Descripcion : "DESCRIPCION ACCS03",
+            Motivo : "MOTIVO ACCS03",
+            Estatus : "Pendiente de Validar",
+            Usuario : "Osvaldo Rosas",
+            FechaUltModif : "02/03/2012"
+		});
+		tbClients.push(client);
+        localStorage.setItem("tbClients", JSON.stringify(tbClients));
+        
+        var client2 = JSON.stringify({
+			ID    : "ACCS06",
+			Nombre  : "ACCIONES SOCIEDADES INVERSION CAPIT",
+			Mercado : "SECM",
+			Descripcion : "DESCRIPCION ACCS06",
+            Motivo : "MOTIVO ACCS06",
+            Estatus : "Pendiente de Validar",
+            Usuario : "Andrea Sevilla",
+            FechaUltModif : "02/03/2012"
+		});
+		tbClients.push(client2);
+        localStorage.setItem("tbClients", JSON.stringify(tbClients));
+        
+        var client = JSON.stringify({
+			ID    : "ACCS07",
+			Nombre  : "ACCIONES INDUSTRIALES",
+			Mercado : "SECM",
+			Descripcion : "DESCRIPCION ACCS07",
+            Motivo : "MOTIVO ACCS07",
+            Estatus : "Pendiente de Validar",
+            Usuario : "Mario Unzueta",
+            FechaUltModif : "02/03/2012"
+		});
+		tbClients.push(client);
+        localStorage.setItem("tbClients", JSON.stringify(tbClients));
+    
+        var client = JSON.stringify({
+			ID    : "ACCS08",
+			Nombre  : "ACCIONES COMERCIALES",
+			Mercado : "SECM",
+			Descripcion : "DESCRIPCION ACCS08",
+            Motivo : "MOTIVO ACCS08",
+            Estatus : "Pendiente de Validar",
+            Usuario : "Gustavo Sanchez",
+            FechaUltModif : "02/03/2012"
+		});
+		tbClients.push(client);
+        localStorage.setItem("tbClients", JSON.stringify(tbClients));
+        
+        var client = JSON.stringify({
+			ID    : "ACCS09",
+			Nombre  : "ACCIONES DE SERVICIOS",
+			Mercado : "SECM",
+			Descripcion : "DESCRIPCION ACCS09",
+            Motivo : "MOTIVO ACCS09",
+            Estatus : "Pendiente de Validar",
+            Usuario : "Armando Perez",
+            FechaUltModif : "02/03/2012"
+		});
+		tbClients.push(client);
+        localStorage.setItem("tbClients", JSON.stringify(tbClients));
+        
+        var client = JSON.stringify({
+			ID    : "ACCS10",
+			Nombre  : "ACCIONES DE BANCOS",
+			Mercado : "SECM",
+			Descripcion : "DESCRIPCION ACCS10",
+            Motivo : "MOTIVO ACCS10",
+            Estatus : "Pendiente de Validar",
+            Usuario : "Alma Lobato",
+            FechaUltModif : "02/03/2012"
+		});
+		tbClients.push(client);
+        localStorage.setItem("tbClients", JSON.stringify(tbClients));
+        
+        var client = JSON.stringify({
+			ID    : "ACCS11",
+			Nombre  : "ACCIONES DE GRUPOS FINANCIEROS",
+			Mercado : "SECM",
+			Descripcion : "DESCRIPCION ACCS11",
+            Motivo : "MOTIVO ACCS11",
+            Estatus : "Pendiente de Validar",
+            Usuario : "Carlos Aviles",
+            FechaUltModif : "02/03/2012"
+		});
+		tbClients.push(client);
+        localStorage.setItem("tbClients", JSON.stringify(tbClients));
+        
         List();
         
     }
