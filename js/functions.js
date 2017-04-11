@@ -445,7 +445,7 @@ $(function(){
 		$("#tblList").html(
 			"<thead>"+
 			"	<tr>"+
-            "   <th></th>"+
+            "   <th><input type='checkbox' id='selectAll' ></th>"+
             "   <th></th>"+
 			"	<th>Identificador</th>"+
 			"	<th>Nombre del Producto</th>"+
@@ -463,7 +463,7 @@ $(function(){
 		for(var i in tbClients){
 			var cli = JSON.parse(tbClients[i]);
 		  	$("#tblList tbody").append("<tr>"+
-                                         "<td><input type='checkbox' class='check' alt='check"+i+"'></td>"+
+                                         "<td><input type='checkbox' class='check' alt='check"+i+"' id='check"+i+"'></td>"+
 									 	 "	<td><button type='button' class='btn btn-default btn-xs btnEdit' id='ButtonWidth' alt='Edit"+i+"'>Modificación</button>" + 
 										 "	<td>"+cli.ID+"</td>" + 
 										 "	<td>"+cli.Nombre+"</td>" + 
@@ -669,6 +669,28 @@ $(function(){
         }
         else {
             habilita();
+        }
+        
+        
+    });
+    
+    $("#selectAll").on('change',function(){
+        
+        var x = document.getElementById("tblList").rows.length-2;
+        if( $(this).is(':checked') ) {
+            
+            for (i = 0; i <= x; i++) {
+                $("#check"+i).attr("checked", true);
+                seleccionados.push(i);
+            }
+            
+        }
+        else {
+           
+            for (i = 0; i <= x; i++) {
+                $("#check"+i).attr("checked", false);
+                seleccionados.splice(i);
+            } 
         }
         
         
